@@ -46,10 +46,10 @@ Open a terminal and navigate to your agent's workspace, then clone:
 cd ~/.openclaw/workspace
 git clone https://github.com/Jason-Cyr/ai-shared-brain.git .
 
-# Example for Claude Code — make a new project folder, then launch Claude in it:
-mkdir ~/ai-shared-brain
+# Example for Claude Code — clone the repo, then launch Claude in it:
+cd ~
+git clone https://github.com/Jason-Cyr/ai-shared-brain.git
 cd ~/ai-shared-brain
-git clone https://github.com/Jason-Cyr/ai-shared-brain.git .
 claude
 ```
 
@@ -75,9 +75,9 @@ Use the templates in this repo as a starting point.
 1. **Edit `USER.md`** — Fill in your name, timezone, role, and preferences
 2. **Edit `SOUL.md`** — Shape the agent's personality (or keep the default — it's a good start)
 3. **Review `AGENTS.md`** — This is the operating manual. The startup ritual at the top is what makes everything work.
-4. **Leave `MEMORY.md` alone** — It starts mostly empty. The agent fills it over time.
+4. **Leave `MEMORY.md` alone** — It starts mostly empty. The agent fills it over time as you actually work together.
 5. **Start a session** with your agent. It should read the files and begin building context.
-6. **Give it a few days.** The memory folder and MEMORY.md will fill up on their own.
+6. **Give it a few days.** The memory folder and MEMORY.md will fill up as you and the agent do real work together over time.
 
 ## File Structure
 
@@ -104,7 +104,7 @@ ai-shared-brain/
 **MEMORY.md** — Starts empty. The agent fills it over time with curated knowledge: key decisions, project context, your preferences, lessons learned. Think of it as the agent's distilled understanding of your world. The agent periodically reviews daily notes and promotes important things here.
 
 ### Layer 3: Episodic Memory
-**memory/YYYY-MM-DD.md** — Daily notes. The agent creates one each day and logs what happened: what you worked on, decisions made, things to follow up on. These are the raw material that feeds long-term memory.
+**memory/YYYY-MM-DD.md** — Daily notes. The agent creates one for days when real work happens and logs what happened: what you worked on, decisions made, things to follow up on. These are the raw material that feeds long-term memory.
 
 ### Layer 4: Active Context (bring your own)
 Connect your own knowledge base — Obsidian vault, Notion workspace, project folders, whatever you use. The agent reads from it to get real-time context on your work. This layer is yours to configure based on your setup.
