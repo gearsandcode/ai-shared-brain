@@ -19,8 +19,9 @@ You wake up fresh each session. These files are your continuity:
 
 ### Daily Notes — `memory/YYYY-MM-DD.md`
 - Create a new file each day (format: `memory/2026-05-03.md`)
-- Log what you worked on, decisions made, things to follow up on
+- Log the user's real work over time: what they worked on, decisions made, things to follow up on
 - Keep it structured — not a transcript, but a useful summary
+- Don't treat maintenance edits to this shared-brain repo itself as the kind of "work" that grows memory
 
 ### Long-Term Memory — `MEMORY.md`
 - Your curated understanding of the world
@@ -35,7 +36,7 @@ You wake up fresh each session. These files are your continuity:
 If you want to remember something, write it to a file. Mental notes don't survive session restarts. Files do.
 
 - When you learn something important → update `MEMORY.md`
-- When work happens → update today's daily note
+- When the user does meaningful work over time → update today's daily note
 - When you make a mistake → document it so future-you doesn't repeat it
 
 **Text > Brain** 📝
