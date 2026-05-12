@@ -46,10 +46,10 @@ Open a terminal and navigate to your agent's workspace, then clone:
 cd ~/.openclaw/workspace
 git clone https://github.com/Jason-Cyr/ai-shared-brain.git .
 
-# Example for Claude Code — make a new project folder, then launch Claude in it:
-mkdir ~/ai-shared-brain
+# Example for Claude Code — clone the repo, then launch Claude in it:
+cd ~
+git clone https://github.com/Jason-Cyr/ai-shared-brain.git
 cd ~/ai-shared-brain
-git clone https://github.com/Jason-Cyr/ai-shared-brain.git .
 claude
 ```
 
